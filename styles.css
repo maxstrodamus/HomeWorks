@@ -1,0 +1,24 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    color:greenyellow;
+}
+
+header {
+    background-color: darkgreen;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+    font-size: 100%;
+    color: gray;
+}

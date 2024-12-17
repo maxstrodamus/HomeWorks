@@ -1,0 +1,29 @@
+
+
+
+
+
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.flex-item {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    z-index: 2;
+}
+
+.flex-item:nth-child(2){
+    background-color: yellow;
+    margin-top: -300px;
+    z-index: 3;
+}
+
+.flex-item:nth-child(3){
+    background-color: cyan;
+    z-index: 1;
+}
